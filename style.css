@@ -1,0 +1,89 @@
+.img{
+    width: 80px;
+
+}
+h1 span{
+    color: #2563eb;
+}
+.btn{
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #ffff;
+}
+.buton{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 30px;
+    background: #111;
+    display: inline-block;
+    border-radius: 30px;
+}
+.button{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #111;
+}
+.button i{
+    padding: 0px 10px;
+}
+.banner-section{
+    padding: 150px 0;
+}
+.banner-section h1{
+    color: #fff;
+    font-size: 40px;
+}
+.banner-section p{
+    color: #ffff;;
+}
+.icon span{
+   
+
+font-size:20px;
+background: green;
+border-radius: 50%;
+padding: 10px;
+color: red;
+box-sizing: border-box;
+line-height: 70px;
+
+
+
+
+}
+
+.textt h3{
+  padding: 0 10px;
+
+}
+.section{
+    transition: 1s;
+}
+.section:hover{
+    letter-spacing: 2px;
+}
+.banner-section{
+background: url(https://t4.ftcdn.net/jpg/06/31/05/79/360_F_631057976_C0ily9ASHpVzeif305GRFOO4mk5EmvGQ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    transform: translateY(100px);
+    transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+
+
+}
+body:hover .banner-section{
+    transform:translateY(-10px);
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+.menu{
+    background: #ddd;;
+}
